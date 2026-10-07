@@ -1,0 +1,22 @@
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+
+# Downloaded model files
+models/*.task
+
+# Temporary validation data
+data/invalid_metrics.csv
+
+# Operating system files
+.DS_Store
+Thumbs.db
